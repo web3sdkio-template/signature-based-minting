@@ -6,12 +6,12 @@ In this guide, we will utilize signature-based minting of NFTs to create a "comm
 
 By the end, we'll have an NFT collection of NFTs that are all animal names, as specified in the [animalNames.ts](./animalNames.ts) file.
 
-**Check out the Demo here**: https://signature-based-minting.web3sdkio-example.com/
+**Check out the Demo here**: https://signature-based-minting.web3sdkio-template.com/
 
 ## Tools:
 
 - [**web3sdkio React SDK**](https://docs.web3sdk.io/react): to enable users to connect and disconnect their wallets to our website, using [useMetamask](https://docs.web3sdk.io/react/react.usemetamask) & [useDisconnect](https://docs.web3sdk.io/react/react.usedisconnect), and prompt them to approve transactions with MetaMask. We'll also use the helpful hooks such as [useNFTs](https://docs.web3sdk.io/react/react.usenfts) to easily fetch data from the smart contract.
-- [**web3sdkio NFT Collection**](https://portal.web3sdk.io/contracts/nft-collection): to create an ERC721 NFT Collection that our community can mint NFTs into.
+- [**web3sdkio NFT Collection**](https://docs.web3sdk.io/contracts/nft-collection): to create an ERC721 NFT Collection that our community can mint NFTs into.
 - [**web3sdkio TypeScript SDK**](https://docs.web3sdk.io/typescript): to connect to our NFT Collection Smart contract via React hooks such as [useNFTCollection](https://docs.web3sdk.io/react/react.usenftcollection), mint new NFTs with [signature based minting](https://docs.web3sdk.io/typescript/sdk.nftcollection.signature).
 - [**Next JS API Routes**](https://nextjs.org/docs/api-routes/introduction): For us to securely generate signatures on the server-side, on behalf of our wallet, using our wallet's private key.
 
@@ -59,7 +59,7 @@ Nice! Now we have an NFT collection. Let's set up a project and see how we can s
 
 ## Setting Up The Project
 
-To get started, we have a ready-made template that includes all the code you need to work with Web3sdkio, TypeScript and Next JS available here https://github.com/web3sdkio-example/next-typescript-starter
+To get started, we have a ready-made template that includes all the code you need to work with Web3sdkio, TypeScript and Next JS available here https://github.com/web3sdkio-template/next-typescript-starter
 
 Our application is wrapped in a Web3sdkio Provider so that we can access Web3sdkio anywhere in our application:
 
@@ -271,4 +271,4 @@ const nft = await nftCollection?.signature.mint(signedPayload);
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/n33UhsfUKB](https://discord.gg/n33UhsfUKB).

@@ -18,7 +18,7 @@ export default function Web3sdkioGuideFooter() {
         role="button"
         onClick={() =>
           window.open(
-            "https://github.com/web3sdkio-example/signature-based-minting",
+            "https://github.com/web3sdkio-template/signature-based-minting",
             "_blank"
           )
         }
@@ -39,7 +39,7 @@ export default function Web3sdkioGuideFooter() {
           style={{ cursor: "pointer" }}
           onClick={() =>
             window.open(
-              "https://github.com/web3sdkio-example/signature-based-minting",
+              "https://github.com/web3sdkio-template/signature-based-minting",
               "_blank"
             )
           }
